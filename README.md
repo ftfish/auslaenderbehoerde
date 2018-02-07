@@ -7,7 +7,7 @@ This small program helps automate that painful and inefficient process.
 
 ## Prerequisites
 - Python 3+ (3.6 recommended)
-- PyQt 5.6+ (5.10 recomended)
+- PyQt 5.6+ (5.10 recommended)
 - BeautifulSoup 4
 
 
