@@ -33,3 +33,15 @@ Trying to find earlier free slots...
 Found 0 earlier dates.
 ```
 You **might** be lucky and might find earlier dates.
+
+## Warning
+Using this script will incur some load on the server. To keep this script usable for a longer time:
+
+**DO NOT USE IT TOO OFTEN!**
+
+**DO NOT USE IT TOO OFTEN!**
+
+**DO NOT USE IT TOO OFTEN!**
+
+## License
+MIT License
