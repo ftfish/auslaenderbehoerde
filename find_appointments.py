@@ -184,7 +184,11 @@ if __name__ == '__main__':
     print('Using binary search to find first sure date...')
     firstSureDate = findFirst(possibleDates, lambda date: isWanted(client, date))
 
-    print('First sure date:', firstSureDate, getAvailableTimesOnDate(client, firstSureDate))
+    if firstSureDate:
+        print('First sure date:', firstSureDate, getAvailableTimesOnDate(client, firstSureDate))
+    else:
+        print('No sure date within the next 90 days. Continuing with brute force.')
+        firstSureDate = startDate + datetime.timedelta(days=90)
 
     print('Trying to find earlier free slots...')
     found = 0

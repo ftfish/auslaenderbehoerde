@@ -43,5 +43,8 @@ Using this script will incur some load on the server. To keep this script usable
 
 **DO NOT USE IT TOO OFTEN!**
 
+## TODO
+- make the program more robust
+
 ## License
 MIT License
